@@ -1,5 +1,5 @@
 .navbar-brand {
-  color: #333;
+  color: yellow;
 }
 
 a {
@@ -9,10 +9,25 @@ a {
 
 .text {
   font-size: 10px;
-  color: chartreuse
+  color: yellow;
 }
 
 .title {
   font-family: 'Shadows Into Light', cursive;
 }
 
+.btn {
+  background-color: yellow;
+}
+
+#navbar-color {
+  background-color: black;
+}
+
+.login {
+  color: white;
+}
+
+.forum {
+  color: white;
+}

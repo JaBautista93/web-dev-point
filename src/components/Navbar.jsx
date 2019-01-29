@@ -9,7 +9,7 @@ class Navbar extends Component {
         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="container">
+        <div className="container" id="navbar-color">
           <Link className="navbar-brand title" to="/">Web Dev Point</Link>
           <Link className="navbar-brand text" to="/">HTML</Link>
           <Link className="navbar-brand text" to="/">CSS</Link>
@@ -27,10 +27,10 @@ class Navbar extends Component {
           </form>
               
               <li className="nav-item">
-                <Link className="nav-link" id="login-page" to="/login">Login</Link>
+                <Link className="nav-link login" id="login-page" to="/login">Login</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" id="forum-page" to="/forum">Forum</Link>
+                <Link className="nav-link forum" id="forum-page" to="/forum">Forum</Link>
               </li>
             </ul>
           </div>
