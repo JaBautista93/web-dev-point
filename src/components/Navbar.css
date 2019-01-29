@@ -6,3 +6,13 @@ a {
   color: #aaa;
   font-weight: 200;
 }
+
+.text {
+  font-size: 10px;
+  color: chartreuse
+}
+
+.title {
+  font-family: 'Shadows Into Light', cursive;
+}
+

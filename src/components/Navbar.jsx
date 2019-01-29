@@ -10,17 +10,27 @@ class Navbar extends Component {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="container">
-          <Link className="navbar-brand" to="/">Web Dev Point</Link>
+          <Link className="navbar-brand title" to="/">Web Dev Point</Link>
+          <Link className="navbar-brand text" to="/">HTML</Link>
+          <Link className="navbar-brand text" to="/">CSS</Link>
+          <Link className="navbar-brand text" to="/">JAVASCRIPT</Link>
+          <Link className="navbar-brand text" to="/">BOOTSTRAP</Link>
+          <Link className="navbar-brand text" to="/">NODE.JS</Link>
+          
+          
           <div className="collapse navbar-collapse" id="navbarCollapse">
+          
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item active">
-                <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
+            <form className="form-inline form">
+          <input className="form-control col-7" type="search" placeholder="Search" aria-label="Search" />
+          <button className="btn btn-outline-success col-4" type="submit">Search</button>
+          </form>
+              
+              <li className="nav-item">
+                <Link className="nav-link" id="login-page" to="/login">Login</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/about">About</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/contact">Contact</Link>
+                <Link className="nav-link" id="forum-page" to="/forum">Forum</Link>
               </li>
             </ul>
           </div>
