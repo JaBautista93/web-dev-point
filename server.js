@@ -15,6 +15,16 @@ app.use(
 );
 app.use(bodyParser.json());
 
+<<<<<<< HEAD
+// Parse request body as JSON
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+// Make public a static folder
+app.use(express.static("public"));
+// Connect Handlebars to our Express app
+app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
+app.set('view engine', 'handlebars');
+=======
 // DB Config
 const db = require("./config/keys").mongoURI;
 
@@ -26,6 +36,7 @@ mongoose
   )
   .then(() => console.log("MongoDB successfully connected"))
   .catch(err => console.log(err));
+>>>>>>> 313636f4eb294c04bc1f2c13adae003e76f695a0
 
 // Passport middleware
 app.use(passport.initialize());
