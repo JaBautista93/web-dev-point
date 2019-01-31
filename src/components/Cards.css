@@ -1,0 +1,10 @@
+img {
+    background-image: url(../images/city-streets.jpeg);
+}
+.card {
+    background:#fff;
+    height: 300px;
+    width: 100%;
+  }
+  
+  
