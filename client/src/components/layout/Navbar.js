@@ -6,17 +6,18 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-toggleable-md">
+       <div className="container">
               <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
-              <div className="container">
+             
                 <Link className="brand navbar-brand title" to="/home">Web Dev Point</Link>
-                <Link className="navbar-brand text" to="/">HTML</Link>
-                <Link className="navbar-brand text" to="/">CSS</Link>
-                <Link className="navbar-brand text" to="/">JAVASCRIPT</Link>
-                <Link className="navbar-brand text" to="/">BOOTSTRAP</Link>
-                <Link className="navbar-brand text" to="/">NODE.JS</Link>
-                <Link className="navbar-brand text" to="/">REACT</Link>
+                <Link className="navbar-brand text" to="/html">HTML</Link>
+                <Link className="navbar-brand text" to="/css">CSS</Link>
+                <Link className="navbar-brand text" to="/javascript">JAVASCRIPT</Link>
+                <Link className="navbar-brand text" to="/bootstrap">BOOTSTRAP</Link>
+                <Link className="navbar-brand text" to="/node">NODE.JS</Link>
+                <Link className="navbar-brand text" to="/react">REACT</Link>
                 
                 
                 <div className="collapse navbar-collapse" id="navbarCollapse">
@@ -37,9 +38,8 @@ class Navbar extends Component {
                 </div>
               </div>
             </nav>
-          );
-        }
-      }
-  
+    );
+  }
+}
 
 export default Navbar;
