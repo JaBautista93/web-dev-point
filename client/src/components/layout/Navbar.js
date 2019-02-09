@@ -32,7 +32,7 @@ class Navbar extends Component {
                       <Link className="nav-link" id="login-page" to="/login">Login</Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" id="forum-page" to="/">Forum</Link>
+                      <Link className="nav-link" id="forum-page" to="/blogs">Blog</Link>
                     </li>
                   </ul>
                 </div>

@@ -4,6 +4,7 @@ const bodyParser = require("body-parser");
 const passport = require("passport");
 
 const users = require("./routes/api/users");
+const blogs = require("./routes/api/blogs");
 
 const app = express();
 
@@ -35,6 +36,21 @@ require("./config/passport")(passport);
 
 // Routes
 app.use("/api/users", users);
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
+// Add routes, both API and view
+app.use("/api/blogs",blogs);
+
+// Connect to the Mongo DB
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/blogging",{useNewUrlParser: true} );
+
+// { useNewUrlParser: true }
+// const PORT = process.env.PORT || 3000;
+// app.listen(PORT, function() {
+//   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
+// });
 
 const port = process.env.PORT || 5000;
 

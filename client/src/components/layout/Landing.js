@@ -6,8 +6,8 @@ class Landing extends Component {
     return (
       <div className="row-mt-5">
         <div className="col-md-6 m-auto">
-          <div class="card-body text-center">
-            <h1><i class="fab fa-node-js fa-3x"></i></h1>
+          <div className="card-body text-center">
+            <h1><i className="fab fa-node-js fa-3x"></i></h1>
             <p>Create an account or login</p>
             <Link
               to="/register"
