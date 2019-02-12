@@ -21,7 +21,8 @@ class ReactJs extends Component {
               <div>
                 <h2 className="m-2">
                   {" "}
-                  We want to give you a brief intro to ReactJS, what is is and how it's used.
+                  We want to give you a brief intro to ReactJS, what is is and
+                  how it's used.
                 </h2>
                 <br />
                 <p className="m-2">
@@ -50,7 +51,8 @@ class ReactJs extends Component {
               <div>
                 <h2 className="m-2">
                   {" "}
-                  In this crash course you will learn the basics of ReactJs, such as components, props and much, much more.
+                  In this crash course you will learn the basics of ReactJs,
+                  such as components, props and much, much more.
                 </h2>
                 <br />
                 <p className="m-2">
@@ -79,7 +81,9 @@ class ReactJs extends Component {
               <div>
                 <h2 className="m-2">
                   {" "}
-                  This is a long one, but upon completion, you will know everything you need to be able to build web apps with React. Enjoy!
+                  This is a long one, but upon completion, you will know
+                  everything you need to be able to build web apps with React.
+                  Enjoy!
                 </h2>
                 <br />
                 <p className="m-2">

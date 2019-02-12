@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import YouTube from "react-youtube";
 
-class JSyoutube extends Component {
+class JSyoutubeMID extends Component {
   render() {
     const opts = {
       height: "390",
-      width: "640",
+      width: "600",
       playerVars: {
         // https://developers.google.com/youtube/player_parameters
         autoplay: 0
@@ -13,7 +13,7 @@ class JSyoutube extends Component {
     };
 
     return (
-      <YouTube videoId="W6NZfCO5SIk" opts={opts} onReady={this._onReady} />
+      <YouTube videoId="0ik6X4DJKCc" opts={opts} onReady={this._onReady} />
     );
   }
 
@@ -23,4 +23,4 @@ class JSyoutube extends Component {
   }
 }
 
-export default JSyoutube;
+export default JSyoutubeMID;

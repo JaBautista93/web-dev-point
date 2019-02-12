@@ -12,7 +12,7 @@ const store = createStore(
   compose(
     applyMiddleware(...middleware),
     window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
-  )
+    )
 );
 
 export default store;

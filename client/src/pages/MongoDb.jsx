@@ -1,18 +1,18 @@
 import React, { Component } from "react";
 import Footer from "../components/Footer.jsx";
-import NodeYoutube from "../components/NodeYoutube.jsx";
-import NodeYoutubeMID from "../components/NodeYoutubeMID";
-import NodeYoutubeHRD from "../components/NodeYoutubeHRD.jsx";
+import MongoYoutube from "../components/MongoYoutube";
+import MongoYoutubeMID from "../components/MongoYoutubeMID.jsx";
+import MongoYoutubeHRD from "../components/MongoYoutubeHRD.jsx";
 import Jumbotron from "../components/Jumbotron.jsx";
 import "./Html.css";
 
-class NodeJs extends Component {
+class MongoDb extends Component {
   render() {
     return (
       <div>
         <Jumbotron
-          title="NodeJs"
-          subtitle="You'll have Node problem setting up servers when you're done here!"
+          title="MongoDb"
+          subtitle="It may take 2 to tango, but after this, you can Mongo all by yourself!"
         />
         <div className="row d-flex justify-content-around m-4">
           <div className="card col-9" id="tutorialCard">
@@ -21,7 +21,8 @@ class NodeJs extends Component {
               <div>
                 <h2 className="m-2">
                   {" "}
-                  This is a brief into to what exactly NodeJs is, clink the link below for more.
+                  First is a brief intro into what exactly MongoDB is and how
+                  it's used.
                 </h2>
                 <br />
                 <p className="m-2">
@@ -32,13 +33,13 @@ class NodeJs extends Component {
                 <br />
                 <a
                   className="btn btn-warning"
-                  href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp"
+                  href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9jpvoYriLI0bY8DOgWZfi6u"
                 >
-                  <h2>Click Here For More</h2>
+                  <h2>Click Here for More </h2>
                 </a>
               </div>
               <div className="m-2">
-                <NodeYoutube />
+                <MongoYoutube />
               </div>
             </div>
           </div>
@@ -50,7 +51,8 @@ class NodeJs extends Component {
               <div>
                 <h2 className="m-2">
                   {" "}
-                  Here you will learn more of what NodeJs is and create a basic Webserver.
+                  Now you will learn to use MongoDb and begin creating your own
+                  non-structured databases.
                 </h2>
                 <br />
                 <p className="m-2">
@@ -61,13 +63,13 @@ class NodeJs extends Component {
                 <br />
                 <a
                   className="btn btn-warning"
-                  href="https://www.youtube.com/user/TechGuyWeb/search?query=nodejs"
+                  href="https://www.youtube.com/user/TechGuyWeb/search?query=mongo"
                 >
-                  <h2>Click Here For More</h2>
+                  <h2>Click Here for More</h2>
                 </a>
               </div>
               <div className="m-2">
-                <NodeYoutubeMID />
+                <MongoYoutubeMID />
               </div>
             </div>
           </div>
@@ -79,7 +81,7 @@ class NodeJs extends Component {
               <div>
                 <h2 className="m-2">
                   {" "}
-                  In this video you will create and entire HTTP server. Learn NodeJs from installation to Heroku Deployment.
+                  Finally, you will make a full CRUD app with MongoDB.
                 </h2>
                 <br />
                 <p className="m-2">
@@ -90,13 +92,13 @@ class NodeJs extends Component {
                 <br />
                 <a
                   className="btn btn-warning"
-                  href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ"
+                  href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ/search?query=mongo"
                 >
-                  <h2>Click Here For More</h2>
+                  <h2>Click Here for More</h2>
                 </a>
               </div>
               <div className="m-2">
-                <NodeYoutubeHRD />
+                <MongoYoutubeHRD />
               </div>
             </div>
           </div>
@@ -107,4 +109,4 @@ class NodeJs extends Component {
   }
 }
 
-export default NodeJs;
+export default MongoDb;
