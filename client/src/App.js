@@ -27,11 +27,8 @@ import Css from "./pages/Css.jsx";
 import Bootstrap from "./pages/Bootstrap";
 import Js from "./pages/JS";
 import MongoDb from "./pages/MongoDb";
-import ReactJs from "./pages/ReactJs";
-import NodeJs from "./pages/NodeJs";
-
-
-
+import ReactJs from "./pages/React";
+import NodeJs from "./pages/Node";
 
 import "./App.css";
 
@@ -66,10 +63,10 @@ class App extends Component {
               <Route exact path="/html" component={Html} />
               <Route path="/css" component={Css} />
               <Route path="/bootstrap" component={Bootstrap} />
+              <Route path="/javascript" component={Js} />
               <Route path="/react" component={ReactJs} />
               <Route path="/node" component={NodeJs} />
               <Route path="/mongo" component={MongoDb} />
-              <Route path="/javascript" component={Js} />
               <Route exact path="/register" component={Register} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/home" component={Home} />
